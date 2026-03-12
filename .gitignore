@@ -1,45 +1,39 @@
-# Python cache
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
+# Credentials - NEVER COMMIT THESE!
+credentials/
+gmail_credentials.json
+token.json
+*.pickle
+.google_credentials/
 
-# Virtual environments
-venv/
-env/
-ENV/
+# Cache files
+.processed_emails.json
+*.pyc
+__pycache__/
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Logs
+Logs/
+*.log
+
+# Temporary files
+/tmp/
+*.tmp
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
-
-# OS files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Logs (keep folder structure, not content)
-Logs/*.txt
-Logs/*.log
-
-# Temporary test data (optional)
-Inbox/*.txt
-Needs_Action/*.md
-
-# Keep example files
-!Inbox/.gitkeep
-!Needs_Action/.gitkeep
-
-# Environment files
-.env
-.env.local
-*.local
 
 # Personal data
-*.personal
-credentials.json
-tokens/
+Inbox/
+Done/
+Needs_Action/EMAIL_*.md

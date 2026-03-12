@@ -1,0 +1,22 @@
+{
+  "name": "email-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Gmail email sending",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node fixed-token-test.js"
+  },
+  "keywords": [
+    "mcp",
+    "gmail",
+    "email"
+  ],
+  "author": "Tabinkhan05",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "googleapis": "^140.0.0"
+  }
+}
