@@ -2,7 +2,7 @@
 ## Autonomous Email Management System
 
 **Developer:** Tabinkhan05  
-**Hackathon:** Panaversity AI Employee 2026  
+**Hackathon:** Personal AI Employee Hackathon 0: Building Autonomous FTEs (Full-Time Equivalent) in 2026
 **Tier:** Silver (Complete)  
 **Status:** Production Ready ✅
 
@@ -95,58 +95,6 @@ AI_employee_vault_S_tier/
 
 ---
 
-## 🚀 Quick Start
-
-### Prerequisites
-```bash
-# Python 3.13+
-python3 --version
-
-# Node.js 24+
-node --version
-
-# pip packages
-pip3 install --break-system-packages google-auth-oauthlib google-auth-httplib2 google-api-python-client
-
-# npm packages
-cd mcp_servers/email
-npm install
-```
-
-### Gmail API Setup
-
-1. Go to [Google Cloud Console](https://console.cloud.google.com)
-2. Create new project
-3. Enable Gmail API
-4. Create OAuth 2.0 credentials
-5. Download credentials as `gmail_credentials.json`
-6. Place in `credentials/` folder
-
-### Running the System
-```bash
-# 1. Start Gmail Watcher
-python3 gmail_watcher.py
-
-# 2. Process detected emails (separate terminal)
-python3 process_tasks.py
-
-# 3. Send test email
-./quick_send.sh your-email@gmail.com
-```
-
----
-
-## 🔧 Configuration
-
-### Gmail Watcher Settings
-```python
-CHECK_INTERVAL = 120  # seconds
-SCOPES = [
-    'https://www.googleapis.com/auth/gmail.readonly',
-    'https://www.googleapis.com/auth/gmail.modify'
-]
-```
-
 ### Priority Detection Rules
 
 **HIGH Priority:**
@@ -221,28 +169,6 @@ SCOPES = [
 
 ---
 
-## 🐛 Troubleshooting
-
-### Token Expired Error
-```bash
-rm credentials/token.json
-python3 gmail_watcher.py  # Re-authenticate
-```
-
-### MCP Server Not Starting
-```bash
-cd mcp_servers/email
-npm install
-node index.js  # Should show "running on stdio"
-```
-
-### No Emails Detected
-- Check Gmail inbox has unread emails
-- Verify credentials are valid
-- Check token.json exists and is fresh
-
----
-
 ## 📈 Performance
 
 - **Email Detection:** Real-time (120s polling)
@@ -273,16 +199,6 @@ node index.js  # Should show "running on stdio"
 
 ---
 
-## 🏆 Achievements
-
-- ✅ Bronze Tier Complete
-- ✅ Silver Tier Complete
-- ✅ 56 emails processed
-- ✅ 100% success rate
-- ✅ Production-ready code
-
----
-
 ## 📝 License
 
 MIT License - See LICENSE file
@@ -293,17 +209,7 @@ MIT License - See LICENSE file
 
 **Tabinkhan05**
 - GitHub: [@Tabinkhan05](https://github.com/Tabinkhan05)
-- Hackathon: Panaversity AI Employee 2026
-
----
-
-## 🙏 Acknowledgments
-
-- Panaversity Team
-- Claude AI (Anthropic)
-- Google Gmail API Team
-- MCP Protocol Authors
-
+- Hackathon: Personal AI Employee Hackathon 0: Building Autonomous FTEs (Full-Time Equivalent) in 2026
 ---
 
 **Built with ❤️ for Panaversity AI Employee Hackathon 2026**
