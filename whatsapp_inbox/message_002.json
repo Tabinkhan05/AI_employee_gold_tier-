@@ -1,0 +1,10 @@
+{
+  "id": "whatsapp_msg_002",
+  "from": "+92-321-9876543",
+  "from_name": "Team Group",
+  "message": "Meeting scheduled for 3 PM today to discuss Q4 targets. Please confirm attendance.",
+  "timestamp": "2026-03-13T15:00:00Z",
+  "chat_type": "group",
+  "media": null,
+  "replied_to": null
+}

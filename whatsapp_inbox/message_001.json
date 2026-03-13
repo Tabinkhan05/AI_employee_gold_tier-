@@ -1,0 +1,10 @@
+{
+  "id": "whatsapp_msg_001",
+  "from": "+92-300-1234567",
+  "from_name": "Ali Khan",
+  "message": "Urgent: Need the project proposal by tomorrow. Client is asking for updates. Can you send it ASAP?",
+  "timestamp": "2026-03-13T14:30:00Z",
+  "chat_type": "individual",
+  "media": null,
+  "replied_to": null
+}

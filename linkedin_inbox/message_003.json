@@ -1,0 +1,10 @@
+{
+  "id": "msg_linkedin_003",
+  "from": "Tech Recruiter",
+  "from_profile": "https://linkedin.com/in/techrecruiter",
+  "subject": "URGENT: Interview Request",
+  "body": "We reviewed your application and would like to schedule an interview ASAP. The position is with a Fortune 500 company with $200,000 compensation package. Please respond within 24 hours.",
+  "received": "2026-03-13T12:00:00Z",
+  "type": "message",
+  "connection_request": false
+}

@@ -1,0 +1,10 @@
+{
+  "id": "msg_linkedin_001",
+  "from": "John Smith",
+  "from_profile": "https://linkedin.com/in/johnsmith",
+  "subject": "Job Opportunity - Senior AI Engineer",
+  "body": "Hi! I came across your profile and I'm impressed with your AI work. We have an urgent opening for a Senior AI Engineer position at our company. Would you be interested in discussing this opportunity? The role offers $150,000+ salary and remote work options.",
+  "received": "2026-03-13T10:30:00Z",
+  "type": "message",
+  "connection_request": false
+}

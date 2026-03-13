@@ -1,0 +1,10 @@
+{
+  "id": "msg_linkedin_002",
+  "from": "Sarah Johnson",
+  "from_profile": "https://linkedin.com/in/sarahjohnson",
+  "subject": "Connection Request",
+  "body": "Hi! I'd like to connect with you. I'm working on similar AI projects and would love to network.",
+  "received": "2026-03-13T11:15:00Z",
+  "type": "connection_request",
+  "connection_request": true
+}
